@@ -3,11 +3,11 @@
 }
 
 body {
-  background: lightgray;
-  display: flex;
+  background: #fafafa;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
-  margin: -20px 0 50px;
+  /* margin: -20px 0 50px; */
 }

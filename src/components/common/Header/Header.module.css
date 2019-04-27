@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.headerContainer {
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0,0,0,.0975);
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  cursor: pointer;
+}
+
+.right {
+   cursor: pointer;
+}
