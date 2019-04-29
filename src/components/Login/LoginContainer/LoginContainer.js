@@ -27,7 +27,11 @@ class LoginContainer extends Component {
     const option = isLoginScreen ? 'Sign In' : 'Create Account';
     return (
       <div className={container}>
-        <Header option={option} image={image} text="Instagram-Clone" alt="Instagram Logo" />
+        <Header
+          option={option}
+          text="Instagram-Clone"
+          image={image}
+        />
       </div>
     );
   }
