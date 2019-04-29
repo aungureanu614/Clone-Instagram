@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 // import SignInForm from '../SignInForm/SignInForm';
 // import RegisterForm from '../RegisterForm/RegisterForm';
 import Header from '../../common/Header/Header';
-import { container } from './LoginContainer.module.css';
+import { container, imageContainer } from './LoginContainer.module.css';
 import image from '../../../icons/ig-logo.png';
+import Icon from '../../common/Icon/Icon';
 
 class LoginContainer extends Component {
   constructor() {
@@ -24,13 +25,13 @@ class LoginContainer extends Component {
 
   render() {
     const { isLoginScreen } = this.state;
-    const option = isLoginScreen ? 'Sign In' : 'Create Account';
+    const signInAction = isLoginScreen ? 'Sign In' : 'Create Account';
     return (
       <div className={container}>
         <Header
-          option={option}
+          option={signInAction}
           text="Instagram-Clone"
-          image={image}
+          icon={<Icon image={image} alt="Instagram icon" className={imageContainer} />}
         />
       </div>
     );
