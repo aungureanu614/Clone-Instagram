@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 // import SignInForm from '../SignInForm/SignInForm';
 // import RegisterForm from '../RegisterForm/RegisterForm';
 import Header from '../../common/Header/Header';
-import { container, imageContainer } from './LoginContainer.module.css';
+import { imageContainer } from './LoginContainer.module.css';
 import image from '../../../icons/ig-logo.png';
 import Icon from '../../common/Icon/Icon';
 
@@ -27,13 +27,13 @@ class LoginContainer extends Component {
     const { isLoginScreen } = this.state;
     const signInAction = isLoginScreen ? 'Sign In' : 'Create Account';
     return (
-      <div className={container}>
+      <Fragment>
         <Header
           option={signInAction}
           text="Instagram-Clone"
           icon={<Icon image={image} alt="Instagram icon" className={imageContainer} />}
         />
-      </div>
+      </Fragment>
     );
   }
 }

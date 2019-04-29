@@ -2,36 +2,3 @@
   width: 10%;
   height: 10%;
 }
-/* .container {
-  box-shadow: 0px 0px 30px 1px #888888;
-  display: flex;
-  align-items: center;
-  width: 768px;
-  max-width: 100%;
-  min-height: 480px;
-} */
-
-/* .overlay-container {
-  position: absolute;
-  background-image: linear-gradient(red, yellow);
-  min-height: 480px;
-  width: 768px;
-  color: white;
-  display: flex;
-  align-items: center;
-  width: 300px;
-}
-
-.overlay {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
- .overlayPanel {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 50px;
-  text-align: center;
-} */
