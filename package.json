@@ -13,7 +13,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test:dev": "react-scripts test",
+    "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
     "prettier": "prettier --config .prettierrc src/**/*.{js,jsx} --write"
   },
@@ -43,7 +44,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && jest"
+      "pre-commit": "lint-staged && npm run test"
     }
   },
   "lint-staged": {
