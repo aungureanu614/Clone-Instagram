@@ -12,7 +12,7 @@
   font-family: 'Pacifico', cursive;
 }
 
-span {
+.text {
   align-self: center;
   padding: 0 10px;
 }

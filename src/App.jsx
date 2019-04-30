@@ -1,9 +1,10 @@
-import React, { Component, Fragment } from 'react'
-// import LoginContainer from './components/Login/LoginContainer'
-import styles from './index.css'
-import image from './icons/ig-logo.png'
+import React, { Fragment } from 'react'
+
 import Header from './components/common/Header'
 import Icon from './components/common/Icon'
+
+import styles from './App.module.css'
+import logo from './icons/ig-logo.png'
 
 const App = () => (
   <Fragment>
@@ -12,9 +13,9 @@ const App = () => (
       text="Instagram-Clone"
       icon={
         <Icon
-          image={image}
+          image={logo}
           alt="Instagram icon"
-          className="imageContainer"
+          className={styles.imageContainer}
         />
       }
     />
