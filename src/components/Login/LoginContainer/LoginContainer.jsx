@@ -20,23 +20,8 @@ class LoginContainer extends Component {
   }
 
   render() {
-    const { isLoginScreen } = this.state
-    const signInAction = isLoginScreen ? 'Sign In' : 'Create Account'
-
     return (
-      <Fragment>
-        <Header
-          option={signInAction}
-          text="Instagram-Clone"
-          icon={
-            <Icon
-              image={image}
-              alt="Instagram icon"
-              className={styles.imageContainer}
-            />
-          }
-        />
-      </Fragment>
+      <div />
     )
   }
 }
