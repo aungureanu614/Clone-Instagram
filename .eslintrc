@@ -1,0 +1,21 @@
+{
+    "extends": "react-app",
+    "plugins": ["prettier"],
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "rules": {
+      "prettier/prettier": "error",
+      "react/prop-types": 2,
+      "react/jsx-filename-extension": [
+        1,
+        {
+            "extensions": [
+                ".js",
+                ".jsx"
+            ]
+        }
+        ]
+    }
+  }

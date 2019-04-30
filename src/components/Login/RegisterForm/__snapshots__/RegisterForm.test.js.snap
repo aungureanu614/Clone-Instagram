@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegisterContainer renders 1`] = `
+<div>
+  Hi from register form
+</div>
+`;
