@@ -8,7 +8,7 @@
   width: 100%;
   height: 80px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-family: 'Pacifico', cursive;
 }
 
@@ -23,5 +23,5 @@ span {
 }
 
 .right {
-   cursor: pointer;
+  cursor: pointer;
 }
