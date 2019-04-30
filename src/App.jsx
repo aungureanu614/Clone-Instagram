@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 // import LoginContainer from './components/Login/LoginContainer'
-import styles from './index.css'
+import './index.css'
 import image from './icons/ig-logo.png'
 import Header from './components/common/Header'
 import Icon from './components/common/Icon'
