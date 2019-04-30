@@ -18,7 +18,6 @@ const App = () => (
         />
       }
     />
-    <div>HI</div>
   </Fragment>
 )
 
