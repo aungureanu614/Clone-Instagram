@@ -1,5 +1,4 @@
-import React, { Component, Fragment } from 'react'
-import styles from './LoginContainer.module.css'
+import React, { Component } from 'react'
 
 class LoginContainer extends Component {
   state = {
@@ -15,9 +14,7 @@ class LoginContainer extends Component {
   }
 
   render() {
-    return (
-      <div />
-    )
+    return <div />
   }
 }
 

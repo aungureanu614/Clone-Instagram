@@ -8,7 +8,7 @@ const Icon = ({ image, alt, className }) => (
 Icon.propTypes = {
   image: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
-  className: PropTypes.string,
+  className: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
 }
 
 Icon.defaultProps = {
