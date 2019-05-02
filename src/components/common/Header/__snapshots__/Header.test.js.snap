@@ -7,7 +7,11 @@ exports[`Header renders 1`] = `
   <div
     className="left"
   >
-    Icon
+    <img
+      alt="Instagram icon"
+      className="iconContainer"
+      src="ig-logo.png"
+    />
     <span
       className="text"
     >

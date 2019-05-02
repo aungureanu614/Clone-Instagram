@@ -11,6 +11,7 @@ const App = () => (
     <Header
       option="Sign In"
       text="Instagram-Clone"
+      type="login"
       icon={
         <Icon
           image={logo}

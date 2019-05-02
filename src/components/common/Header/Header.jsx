@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './Header.module.css'
-import { Link } from 'react-router-dom'
+// import { BrowserRouter as Router, Link } from 'react-router-dom'
 
 const Header = ({ text, icon, option }) => (
   <div className={styles.headerContainer}>
@@ -9,11 +9,7 @@ const Header = ({ text, icon, option }) => (
       {icon}
       <span className={styles.text}>{text}</span>
     </div>
-    {option && (
-      <Link className={styles.right} to={'/login'}>
-        {option}
-      </Link>
-    )}
+    <div className={styles.right}>{option}</div>
   </div>
 )
 

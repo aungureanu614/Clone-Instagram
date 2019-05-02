@@ -1,6 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { render } from 'react-dom'
 
 import './index.css'
 import App from './App'
@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker'
 import SignInForm from './components/Login/SignInForm'
 import RegisterForm from './components/Login/RegisterForm'
 
-ReactDOM.render(
+render(
   <Router>
     <Route path="/" component={App} />
     <Route path="/login" component={SignInForm} />
