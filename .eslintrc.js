@@ -27,6 +27,10 @@ module.exports =  {
     }
   },
   rules: {
-    'prettier/prettier': 'error'
+    'prettier/prettier': 'error',
+    '@typescript-eslint/explicit-function-return-type': [
+      'error',
+      { allowTypedFunctionExpressions: true }
+    ],
   },
 }
