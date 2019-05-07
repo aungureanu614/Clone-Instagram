@@ -14,10 +14,5 @@ exports[`Header renders 1`] = `
       Instagram-Clone
     </span>
   </div>
-  <div
-    className="right"
-  >
-    Sign In
-  </div>
 </div>
 `;
