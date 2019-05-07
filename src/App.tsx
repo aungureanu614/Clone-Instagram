@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import * as React from 'react'
 
 import Header from './components/common/Header'
 import Icon from './components/common/Icon'
@@ -6,8 +6,8 @@ import Icon from './components/common/Icon'
 import styles from './App.module.css'
 import logo from './icons/ig-logo.png'
 
-const App = () => (
-  <Fragment>
+const App: React.FunctionComponent = () => (
+  <React.Fragment>
     <Header
       text="Instagram Clone"
       icon={
@@ -18,7 +18,7 @@ const App = () => (
         />
       }
     />
-  </Fragment>
+  </React.Fragment>
 )
 
 export default App

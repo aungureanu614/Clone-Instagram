@@ -1,16 +1,16 @@
 import React from 'react'
 import styles from './Header.module.css'
 
-interface HeaderOptions {
-  text: string;
-  icon: JSX.Element;
+interface Props {
+  text: string
+  icon: JSX.Element
 }
 
-const Header = (options: HeaderOptions) => (
+const Header: React.FunctionComponent<Props> = ({ icon, text }) => (
   <div className={styles.headerContainer}>
     <div className={styles.center}>
-      {options.icon}
-      <span className={styles.text}>{options.text}</span>
+      {icon}
+      <span className={styles.text}>{text}</span>
     </div>
   </div>
 )
