@@ -1,13 +1,13 @@
-import React from 'react'
+import * as React from 'react'
 
-interface IconOptions {
-  image: string;
-  alt: string;
-  className: string;
+interface Props {
+  image: string
+  alt: string
+  className?: string
 }
 
-const Icon = (icon: IconOptions) => (
-  <img src={icon.image} alt={icon.alt} className={icon.className} />
+const Icon: React.FunctionComponent<Props> = ({ image, alt, className }) => (
+  <img src={image} alt={alt} className={className} />
 )
 
 export default Icon
