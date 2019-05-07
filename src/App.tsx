@@ -9,8 +9,7 @@ import logo from './icons/ig-logo.png'
 const App = () => (
   <Fragment>
     <Header
-      option="Sign In"
-      text="Instagram-Clone"
+      text="Instagram Clone"
       icon={
         <Icon
           image={logo}
