@@ -8,7 +8,7 @@ interface HeaderOptions {
 
 const Header = (options: HeaderOptions) => (
   <div className={styles.headerContainer}>
-    <div className={styles.left}>
+    <div className={styles.center}>
       {options.icon}
       <span className={styles.text}>{options.text}</span>
     </div>
