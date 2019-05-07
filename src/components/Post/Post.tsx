@@ -9,7 +9,12 @@ interface Props {
 }
 
 const Post: React.FunctionComponent<Props> = ({nickname, avatar, caption, image}) => (
-  <div></div>
+  <div>
+    {nickname}
+    {avatar}
+    {caption}
+    {image}
+  </div>
 )
 
 export default Post;

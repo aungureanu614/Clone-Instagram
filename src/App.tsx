@@ -20,10 +20,11 @@ const App: React.FunctionComponent = () => (
       }
     />
     <section>
-      <Post nickname={"Ana"}
-        avatar={"path/to/file"}
-        caption={"Ana building react"}
-        image={"path/to/image"}
+      <Post
+        nickname={'Ana'}
+        avatar={'path/to/file'}
+        caption={'Ana building react'}
+        image={'path/to/image'}
       />
     </section>
   </React.Fragment>
