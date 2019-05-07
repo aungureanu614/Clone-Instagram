@@ -15,7 +15,7 @@
     "test:dev": "react-scripts test",
     "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
-    "prettier": "prettier --config .prettierrc src/**/*.{ts,tsx,js,jsx} --write"
+    "lint:fix": "eslint src/**/*.{ts,tsx} --fix"
   },
   "browserslist": {
     "production": [
@@ -38,6 +38,8 @@
     "@typescript-eslint/eslint-plugin": "^1.7.0",
     "@typescript-eslint/parser": "^1.7.0",
     "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-config-react": "^1.1.7",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "husky": "^2.1.0",
