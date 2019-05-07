@@ -5,17 +5,14 @@ exports[`Header renders 1`] = `
   className="headerContainer"
 >
   <div
-    className="left"
+    className="center"
   >
     Icon
-    <span>
+    <span
+      className="text"
+    >
       Instagram-Clone
     </span>
-  </div>
-  <div
-    className="right"
-  >
-    Sign In
   </div>
 </div>
 `;

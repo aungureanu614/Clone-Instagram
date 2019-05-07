@@ -4,24 +4,20 @@
   display: flex;
   background-color: #fff;
   border-bottom: 1px solid rgba(0,0,0,.0975);
-  position: fixed;
+  position: sticky;
   width: 100%;
   height: 80px;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   font-family: 'Pacifico', cursive;
 }
 
-span {
+.text {
   align-self: center;
   padding: 0 10px;
 }
 
-.left {
-  cursor: pointer;
+.center {
   display: flex;
-}
-
-.right {
-  cursor: pointer;
+  justify-content: center;
 }
