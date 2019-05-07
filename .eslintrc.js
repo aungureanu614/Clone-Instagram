@@ -28,6 +28,7 @@ module.exports =  {
   },
   rules: {
     'prettier/prettier': 'error',
+    'react/prop-types': 0,
     '@typescript-eslint/explicit-function-return-type': [
       'error',
       { allowTypedFunctionExpressions: true }
