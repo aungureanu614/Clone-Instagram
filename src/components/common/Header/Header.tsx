@@ -3,7 +3,7 @@ import styles from './Header.module.css'
 
 interface Props {
   text: string
-  icon: JSX.Element
+  icon: React.ReactChild
 }
 
 const Header: React.FunctionComponent<Props> = ({ icon, text }) => (
