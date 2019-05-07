@@ -20,8 +20,15 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
+  settings: {
+    react: {
+      pragma: 'React',
+      version: 'detect',
+    }
+  },
   rules: {
     'prettier/prettier': 'error',
+    'react/prop-types': 0,
     '@typescript-eslint/explicit-function-return-type': [
       'error',
       { allowTypedFunctionExpressions: true }
