@@ -1,7 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 import Icon from './Icon'
-import icon from '../../../icons/ig-logo.png'
+import icon from '../../../images/ig-logo.png'
 
 test('Icon renders', () => {
   const component = renderer.create(

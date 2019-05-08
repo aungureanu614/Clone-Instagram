@@ -1,0 +1,19 @@
+.storyHeader {
+  padding: 5px;
+  display: flex;
+}
+
+.nickname {
+  align-self: center;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.caption {
+  font-size: 14px;
+}
+
+.storyContainer {
+  border: 1px solid lightgray;
+  margin: 40px 0;
+}
