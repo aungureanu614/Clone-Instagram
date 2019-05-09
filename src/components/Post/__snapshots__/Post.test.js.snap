@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post renders 1`] = `
+<div
+  className="storyContainer"
+>
+  <div
+    className="storyHeader"
+  >
+    http://placekitten.com/200/300
+    <span
+      className="nickname"
+    >
+      <strong>
+        Post
+      </strong>
+    </span>
+  </div>
+  http://placekitten.com/200/300
+  <div
+    className="storyHeader"
+  >
+    <span
+      className="nickname"
+    >
+      <strong>
+        Post
+      </strong>
+    </span>
+    <span
+      className="caption"
+    >
+      this is a kitty
+    </span>
+  </div>
+</div>
+`;

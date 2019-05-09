@@ -16,9 +16,9 @@ module.exports =  {
     'browser': true,
     'jest': true
   },
-  parserOptions:  {
-    ecmaVersion:  2018,
-    sourceType:  'module',
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module',
   },
   settings: {
     react: {
