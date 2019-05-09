@@ -14,5 +14,23 @@ exports[`Header renders 1`] = `
       Instagram-Clone
     </span>
   </div>
+  <div
+    className="linkContainer"
+  >
+    <a
+      className="link"
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <a
+      className="link"
+      href="/about"
+      onClick={[Function]}
+    >
+      About
+    </a>
+  </div>
 </div>
 `;
