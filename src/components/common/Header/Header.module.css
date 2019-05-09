@@ -21,3 +21,15 @@
   display: flex;
   justify-content: center;
 }
+
+.linkContainer {
+  font-family: sans-serif;
+}
+
+.link {
+  margin-right: 10px;
+}
+
+.link:last-child {
+  margin: 0;
+}

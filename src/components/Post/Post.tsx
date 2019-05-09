@@ -1,6 +1,5 @@
-import React from 'react'
+import * as React from 'react'
 import styles from './Post.module.css'
-import { readdirSync } from 'fs'
 
 interface Props {
   nickname: string
