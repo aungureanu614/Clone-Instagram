@@ -1,16 +1,17 @@
 import * as React from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import Header from './components/common/Header'
 import Icon from './components/common/Icon'
-import Post from './components/Post'
 
 import styles from './App.module.css'
 import logo from './images/ig-logo.png'
-import avatar from './images/avatar.jpg'
-import storyphoto from './images/insta-story.jpeg'
+
+import Home from './routes/Home'
+import About from './routes/About'
 
 const App: React.FunctionComponent = () => (
-  <React.Fragment>
+  <Router>
     <Header
       text="Instagram Clone"
       icon={
@@ -21,23 +22,9 @@ const App: React.FunctionComponent = () => (
         />
       }
     />
-    <section className={styles.storySection}>
-      <Post
-        nickname="Ana-Maria"
-        avatar={
-          <Icon image={avatar} alt="Ana avatar" className={styles.avatar} />
-        }
-        caption="Visiting Peles Castle!"
-        image={
-          <Icon
-            image={storyphoto}
-            alt="Peles Castle"
-            className={styles.storyPhoto}
-          />
-        }
-      />
-    </section>
-  </React.Fragment>
+    <Route exact path="/" component={Home} />
+    <Route exact path="/about" component={About} />
+  </Router>
 )
 
 export default App
