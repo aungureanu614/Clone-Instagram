@@ -14,7 +14,7 @@ const App: React.FunctionComponent = () => (
   <Router>
     <Header
       text="Instagram Clone"
-      icon={
+      image={
         <Image
           image={logo}
           alt="Instagram icon"
