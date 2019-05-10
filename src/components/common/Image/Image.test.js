@@ -1,11 +1,11 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import Icon from './Icon'
-import icon from '../../../images/ig-logo.png'
+import Image from './Image'
+import image from '../../../images/ig-logo.png'
 
-test('Icon renders', () => {
+test('Image renders', () => {
   const component = renderer.create(
-    <Icon image={icon} alt="Instagram Icon" className="Icon" />
+    <Image image={image} alt="Instagram Icon" className="Icon" />
   )
   const tree = component.toJSON()
   expect(tree).toMatchSnapshot()

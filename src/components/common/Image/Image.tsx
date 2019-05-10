@@ -6,8 +6,8 @@ interface Props {
   className?: string
 }
 
-const Icon: React.FunctionComponent<Props> = ({ image, alt, className }) => (
+const Image: React.FunctionComponent<Props> = ({ image, alt, className }) => (
   <img src={image} alt={alt} className={className} />
 )
 
-export default Icon
+export default Image

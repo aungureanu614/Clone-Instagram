@@ -2,7 +2,7 @@ import * as React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import Header from './components/common/Header'
-import Icon from './components/common/Icon'
+import Image from './components/common/Image'
 
 import styles from './App.module.css'
 import logo from './images/ig-logo.png'
@@ -15,7 +15,7 @@ const App: React.FunctionComponent = () => (
     <Header
       text="Instagram Clone"
       icon={
-        <Icon
+        <Image
           image={logo}
           alt="Instagram icon"
           className={styles.imageContainer}

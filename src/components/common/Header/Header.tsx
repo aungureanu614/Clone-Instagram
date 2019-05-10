@@ -4,13 +4,13 @@ import styles from './Header.module.css'
 
 interface Props {
   text: string
-  icon: React.ReactChild
+  image: React.ReactChild
 }
 
-const Header: React.FunctionComponent<Props> = ({ icon, text }) => (
+const Header: React.FunctionComponent<Props> = ({ image, text }) => (
   <div className={styles.headerContainer}>
     <div className={styles.center}>
-      {icon}
+      {image}
       <span className={styles.text}>{text}</span>
     </div>
     <div className={styles.linkContainer}>

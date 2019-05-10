@@ -7,7 +7,7 @@ import Header from './Header'
 test('Header renders', () => {
   const component = renderer.create(
     <BrowserRouter>
-      <Header option="Sign In" text="Instagram-Clone" icon="Icon" />
+      <Header option="Sign In" text="Instagram-Clone" image="Icon" />
     </BrowserRouter>
   )
   const tree = component.toJSON()

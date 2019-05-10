@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import Icon from '../../components/common/Icon'
+import Image from '../../components/common/Image'
 import Post from '../../components/Post'
 
 import styles from './Home.module.css'
@@ -13,11 +13,11 @@ const Home: React.FunctionComponent = () => (
       <Post
         nickname="Ana-Maria"
         avatar={
-          <Icon image={avatar} alt="Ana avatar" className={styles.avatar} />
+          <Image image={avatar} alt="Ana avatar" className={styles.avatar} />
         }
         caption="Visiting Peles Castle!"
         image={
-          <Icon
+          <Image
             image={storyphoto}
             alt="Peles Castle"
             className={styles.storyPhoto}
