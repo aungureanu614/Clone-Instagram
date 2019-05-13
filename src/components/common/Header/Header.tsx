@@ -14,9 +14,9 @@ const Header: React.FunctionComponent<Props> = ({ image, text }) => (
       <span className={styles.text}>{text}</span>
     </div>
     <div className={styles.linkContainer}>
-      <Link to="/" className={styles.link}>
+      {/* <Link to="/" className={styles.link}>
         Home
-      </Link>
+      </Link> */}
       <Link to="/about" className={styles.link}>
         About
       </Link>

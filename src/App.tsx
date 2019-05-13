@@ -7,8 +7,9 @@ import Image from './components/common/Image'
 import styles from './App.module.css'
 import logo from './images/ig-logo.png'
 
-import Home from './routes/Home'
+// import Home from './routes/Home'
 import About from './routes/About'
+import LogonContainer from './routes/LogonContainer'
 
 const App: React.FunctionComponent = () => (
   <Router>
@@ -22,8 +23,9 @@ const App: React.FunctionComponent = () => (
         />
       }
     />
-    <Route exact path="/" component={Home} />
+    {/* <Route exact path="/" component={Home} /> */}
     <Route exact path="/about" component={About} />
+    <Route exact path="/" component={LogonContainer} />
   </Router>
 )
 
